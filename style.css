@@ -1,0 +1,255 @@
+      /* Universal */
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        background-color: #111010;
+        color: white;
+      }
+      /* Navbar */
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 40px;
+        height: 85px;
+      }
+      ul {
+        display: flex;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 50px;
+      }
+      nav ul li a {
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        transition: 0.7s;
+      }
+      nav ul li a:hover {
+        color: #00ffe9;
+      }
+      nav ul li a:hover {
+        border-bottom: 2px solid #00ffe9;
+        transition: 0.1s;
+      }
+      /* Home Section */
+      .left {
+        font-size: 1.9rem;
+        letter-spacing: 0.8rem;
+        font-family: "Orbitron", sans-serif;
+        color: white;
+        text-decoration: none;
+      }
+      .home {
+        background-color: #171717;
+        /* background: url(BG\ Image.jpg); */
+        min-height: 40vh;
+        padding: 10px;
+      }
+      .home span {
+        display: block;
+        margin: 2.2rem 5rem;
+        font-size: 3rem;
+      }
+      span:nth-child(1) {
+        color: #00ccba;
+      }
+      span:nth-child(2) {
+        color: #00ccba;
+        opacity: 80%;
+      }
+      span:nth-child(3) {
+        color: #00ccba;
+        opacity: 60%;
+      }
+      .btn {
+        margin: 70px 78px;
+      }
+      .btn button {
+        padding: 10px 20px;
+        font-size: 1.875rem;
+        font-weight: 500;
+        background: transparent;
+        border: 2px solid #00ffe9;
+        color: #00b7a8;
+        transition: 0.5s;
+      }
+      .btn button:hover {
+        /* border: 3px solid #00b7a8; */
+        color: black;
+        background: #00ffe9;
+      }
+      hr {
+        margin: 50px 70px;
+        color: #dadada;
+        height: 0.5px;
+      }
+      /* Container 1 */
+      .container1 {
+        display: flex;
+        margin: 0 200px;
+      }
+      .intro {
+        font-size: 2.5rem;
+        width: 100rem;
+        /* background-color: red; */
+      }
+      .info {
+        font-size: 1.3rem;
+        /* background-color: yellow; */
+        width: 113rem;
+      }
+      .info .btn {
+        margin: 80px 0;
+      }
+      .info button {
+        font-size: 1.25rem;
+        padding: 5px 30px;
+      }
+      .container1 span {
+        color: #00ffe9;
+      }
+      /* Container 2 */
+      .container2 {
+        display: flex;
+        margin: 0 200px;
+      }
+      .container2 .img img {
+        height: 100%;
+        width: 80%;
+      }
+      .skills {
+        width: 260rem;
+        font-size: 1.5rem;
+      }
+      .skill .heading1 {
+        margin: 10px 0;
+        font-size: 2rem;
+        font-weight: 500;
+        color: #00ccba;
+        opacity: 60%;
+      }
+      .skill p {
+        color: #dadada;
+        opacity: 80%;
+      }
+      /* Skill Sectoin */
+      .heading {
+        display: flex;
+        justify-content: center;
+        font-size: 4rem;
+        font-weight: 500;
+      }
+      .container3 {
+        display: flex;
+        margin: 0 200px;
+      }
+      .container3 .box {
+        background-color: #171717;
+        height: 450px;
+        width: 500px;
+        margin: 25px 20px;
+        display: flex;
+        flex-direction: column;
+      }
+      .box img {
+        height: 200px;
+        width: 332px;
+      }
+      .box h5 {
+        display: flex;
+        margin: 7px 0;
+        font-size: 2rem;
+        justify-content: center;
+        font-weight: 300;
+      }
+      .box p {
+        min-height: 120px;
+        margin: 0 14px;
+      }
+      .box .btn {
+        display: flex;
+        justify-content: center;
+        margin: 18px 0;
+      }
+      .box .btn button {
+        font-size: 0.9375rem;
+        padding: 7px 100px;
+      }
+      /* Form Section */
+      .connect {
+        display: flex;
+        justify-content: center;
+        font-size: 3rem;
+        font-weight: 500;
+      }
+      .container4 {
+        display: flex;
+        margin: 20px 250px;
+      }
+      .address {
+        width: 30rem;
+      }
+      .form form {
+        display: flex;
+        flex-direction: column;
+        width: 30rem;
+        margin-left: 10rem;
+      }
+      .form form input {
+        background-color: transparent;
+        margin-top: 70px;
+        font-size: 1.4rem;
+        padding: 0 10px;
+        border: none;
+        border-bottom: 2px solid white;
+        color: white;
+      }
+      .form form input:focus{
+        outline: none;
+      }
+      .content {
+        font-size: 1.2rem;
+        margin-top: 30px;
+      }
+      .addInfo {
+        margin: 50px 0;
+      }
+      .number,
+      .mail,
+      .location {
+        padding: 15px 0;
+        font-size: 1rem;
+      }
+      ion-icon {
+        font-size: 1.3rem;
+        margin-right: 10px;
+      }
+      .form .btn {
+        margin: 40px 160px;
+      }
+      .form .btn button {
+        font-size: 1rem;
+        padding: 8px 50px;
+      }
+      /* Footer Section */
+      footer{
+        margin: 0 74px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .last-hr{
+        margin: 18px 70px;
+      }
+      footer .copy{
+        opacity: 60%;
+      }
+      footer ion-icon{
+        font-size: 1.7rem;
+        color: white;
+        margin: 0 15px;
+      }
