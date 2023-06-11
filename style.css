@@ -459,6 +459,7 @@
   }
   .box{
     margin: 0;
+     witdh: 100%;
   }
   .container2 {
     flex-direction: column;
@@ -491,7 +492,7 @@
   }
   .form form {
     width: 100%;
-    margin: 0;
+    margin: 10px;
   }
   .form .btn {
     margin: 0;
