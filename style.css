@@ -8,6 +8,7 @@
     --text-color: #fff;
     --main-color: #00CCBA;
 }
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
@@ -20,7 +21,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: var(--main-color) ;
+    background: var(--main-color);
     border-radius: 10px;
 }
 
@@ -79,7 +80,6 @@ section {
     letter-spacing: 1rem;
     cursor: default;
 }
-
 
 .navbar a {
     font-size: 1.7rem;
@@ -233,7 +233,8 @@ span {
 }
 
 .services-box {
-    flex: 1 1 30rem;
+    width: 40rem;
+    /* flex: 1 1 30rem; */
     background: var(--second-bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
@@ -549,8 +550,9 @@ span {
         text-align: center;
     }
 
-    .home-content h3 span {
-        display: block;
+    .typed-cursor {
+        display: inline;
+        width: 100%;
     }
 
     .contact form .input-box input {
